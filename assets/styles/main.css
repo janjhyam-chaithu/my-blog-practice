@@ -1,0 +1,30 @@
+body {
+    background-color: #f8f9fa; /* Light background */
+    color: #333; /* Dark text */
+}
+
+.dark-mode body {
+    background-color: #343a40; /* Dark background */
+    color: #f8f9fa; /* Light text */
+}
+
+.subscribe-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: #0056b3;
+}
+
+.dark-mode .subscribe-button {
+    background-color: #28a745; /* Dark mode button color */
+}
+
+.dark-mode .subscribe-button:hover {
+    background-color: #1e7e34;
+}
