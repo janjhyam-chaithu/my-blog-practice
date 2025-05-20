@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest # Specifies the operating system for the runner
     strategy:
       matrix:
-        python-version: [3.8, 3.9, 3.10] # Test across different Python versions
+        python-version: [3.8, 3.9, 3.10, 3.11] # Test across different Python versions
     steps:
       - uses: actions/checkout@v4 # Checks out your repository code
       - name: Set up Python # Sets up the Python environment
