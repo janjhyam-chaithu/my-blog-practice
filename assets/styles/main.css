@@ -39,12 +39,12 @@ body {
     padding: 20px 0;
     text-align: center;
 }
-
 .footer-widget {
     display: inline-block;
     margin: 0 20px;
+    border: 1px solid #555; /* Added border */
+    padding: 10px;
 }
-
 .footer a {
     color: #ccc;
     text-decoration: none;
